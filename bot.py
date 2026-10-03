@@ -1,6 +1,9 @@
 __version__ = "4.2.1"
 
 
+if __name__ == "__main__":
+    main()
+    
 import asyncio
 import copy
 import hashlib
