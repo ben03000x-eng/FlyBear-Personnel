@@ -1,14 +1,6 @@
 from keep_alive import keep_alive
 keep_alive()
 
-import asyncio
-import os
-# from core.bot import ModmailBot
-
-if __name__ == "__main__":
-    bot = ModmailBot()
-    bot.run()
-
 __version__ = "4.2.1"
 
 import asyncio
