@@ -1,9 +1,14 @@
-__version__ = "4.2.1"
+from keep_alive import keep_alive
+keep_alive()
 
+from core.bot import ModmailBot
 
 if __name__ == "__main__":
-    main()
-    
+    bot = ModmailBot()
+    bot.run()
+
+__version__ = "4.2.1"
+
 import asyncio
 import copy
 import hashlib
