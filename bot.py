@@ -3,7 +3,7 @@ keep_alive()
 
 import asyncio
 import os
-from core.bot import ModmailBot
+# from core.bot import ModmailBot
 
 if __name__ == "__main__":
     bot = ModmailBot()
